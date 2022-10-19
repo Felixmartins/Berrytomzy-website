@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Felix Portfolio website</title>
+   <link rel="stylesheet" href="yes.css">
+   <script src="https://kit.fontawesome.com/e0714c4e59.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <nav class="navbar">
+      <div class="max-width">
+     <div class="logo"><a href="#">portfo<span>lio.</span></a></div>
+    <ul class="menu">
+       <li><a href="#home">Home</a></li>
+       <li><a href="#about">About</a></li>
+       <li><a href="#services">Services</a></li>
+       <li><a href="#portfolio">Portfolio</a></li>
+       <li><a href="#contact">Contact</a></li>
+       <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+           </ul>
+           <i class="fa-solid fa-bars" onclick="openmenu()"></i> 
+      </div>
+    </nav>
+    <section class="home" id="home">
+      <div class="max-width">
+      <div class="home-content">
+          <div class="text-1">Hello,my name is</div>
+          <div class="text-2">Felix Martins</div>
+          <div class="text-3">And i am a <span> web developer</span></div>
+          <a href="#">Hire me</a>
+      </div>
+      </div>
+      </section>
+<!--------------about-------------- -->
+           <div id="about">
+            <div class="container">
+               <div class="row">
+                  <div class="about-col-1">
+                     <img src="webbit/yes.jpg" >
+                  </div>
+                  <div class="about-col-2">
+                     <h1 class="sub-title">About me</h1>
+                     <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus exercitationem sit praesentium! Ab, quisquam laborum! Similique, unde reiciendis dolore voluptas dignissimos soluta consequatur, praesentium voluptates ab aspernatur mollitia accusantium nihil!</p>
+                 
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                     </div>
+                       <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                           <li><span>Web Designer</span><br>Web Development</li>
+                           <li><span>Graphics Designer</span><br>Graphics Designing</li>
+                           <li><span>Content Creator</span><br>Content Creating</li>
+                        </ul>
+                       </div>
+
+                       <div class="tab-contents" id="experience">
+                        <ul>
+                           <li><span>2022 - Current</span><br>Web Development at Omega Technologies</li>
+                           <li><span>2021 - 2022</span><br>Graphics Designing at Askod Designs</li>
+                           <li><span>2019 - 2021</span><br>Content Creating at Adex Media</li>
+                        </ul>
+                       </div>
+
+                       <div class="tab-contents" id="education">
+                        <ul>
+                           <li><span>2019</span><br>Studied at Rehoboth College</li>
+                           <li><span>2021</span><br>Coding at Federal Secretariat</li>
+                           <li><span>2022</span><br>Studying at Kwara State University</li>
+                        </ul>
+                       </div>
+                  </div>
+               </div>
+            </div>
+           </div>
+           <!-------------services ---------------- -->
+           <div id="services">
+               <div class="container">
+                 <h1 class="sub-title">My Services</h1> 
+                 <div class="services-list">
+                     <div>
+                        <i class="fa-solid fa-up-right-from-square"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel labore officiis numquam expedita, atque delectus! Eius earum sunt explicabo optio eum iure voluptas ex a sequi, et porro iusto at!</p>
+                       <a href="#">Learn more</a>
+                     </div>
+                     <div>
+                        <i class="fa-solid fa-pen-line"></i>
+                        <h2>Graphics Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel labore officiis numquam expedita, atque delectus! Eius earum sunt explicabo optio eum iure voluptas ex a sequi, et porro iusto at!</p>
+                       <a href="#">Learn more</a>
+                     </div>
+                     <div>
+                        <i class="fa-solid fa-pen-line"></i>
+                        <h2>Content Creating</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel labore officiis numquam expedita, atque delectus! Eius earum sunt explicabo optio eum iure voluptas ex a sequi, et porro iusto at!</p>
+                       <a href="#">Learn more</a>
+                     </div>
+                 </div>
+               </div>
+           </div>
+
+           <!--------------------------portfolio-------------------->
+     <div id="portfolio">
+      <div class="container">
+         <h1 class="sub-title">My Work</h1>
+         <div class="work-list">
+            <div class="work">
+               <img src="webbit/xender.png">
+               <div class="layer">
+                  <h3>Web Development</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum eligendi a commodi error amet. Eius adipisci maiores exercitationem architecto! Nemo ullam pariatur unde velit blanditiis nisi, cumque nulla voluptatem vero.</p>
+                  <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+               </div>
+            </div>
+            <div class="work">
+               <img src="webbit/xender.png">
+               <div class="layer">
+                  <h3>Graphics Designing</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum eligendi a commodi error amet. Eius adipisci maiores exercitationem architecto! Nemo ullam pariatur unde velit blanditiis nisi, cumque nulla voluptatem vero.</p>
+                  <a href="#"><i class="fa-solid fa-scalpel-line-dashed"></i></a>
+               </div>
+            </div>
+            <div class="work">
+               <img src="webbit/xender.png">
+               <div class="layer">
+                  <h3>Content Creating</h3>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum eligendi a commodi error amet. Eius adipisci maiores exercitationem architecto! Nemo ullam pariatur unde velit blanditiis nisi, cumque nulla voluptatem vero.</p>
+                  <a href="#"><i class="fa-solid fa-book"></i></a>
+               </div>
+            </div>
+         </div>
+         <a href="#" class="btn">See more</a>
+      </div>
+     </div>
+     <!----------contact---------->
+     <div id="contact">
+       <div class="container">
+           <div class="row">
+            <div class="contact-left">
+               <h1 class="sub-title">Contact Me</h1>
+               <p><i class="fa-solid fa-envelope"></i>Felixmartins2005@gmail.com</p>
+               <p><i class="fa-solid fa-phone"></i>08116010166</p>
+               <div class="social-icons">
+                   <a href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fwww.tiktok.com%2F%40felixmartins233%3F_t%3D8W7yD4PjGr8%26_r%3D1%26fbclid%3DIwAR3J4W_JDqh8iQWPWhIowbzxD7rWGDdP0E1yLj48vKKrFxSRf-oCgoYijbQ&h=AT1syhhqT0hZ5u6WDQONlkEhhDZwaBa_Ea1L5tMs-m2zffJOr_qUoGJKbxk4FWCJnDVloCcMfdXk0fweLPyPQ_btZK0q-O1GPwEn_Yrt-HnNs9Z2wf1MUk_VQoAMjZdWYhjBKA"><i class="fa-brands fa-tiktok"></i></a>
+                   <a href="https://www.facebook.com/rio.denver.564"><i class="fa-brands fa-facebook"></i></a>
+                   <a href="https://www.felixmartins233.com"><i class="fa-brands fa-instagram"></i></a>
+                   <a href="https://lm.facebook.com/l.php?u=https%3A%2F%2Fwa.me%2Fmessage%2FGFEKNVKG5QV2G1%3Ffbclid%3DIwAR1epQqH5R4rRI81X0eI26RyxO0h21Wu7-fg85aqeSHbVNJU0uY1uz2xL4Y&h=AT32dTNBkr-Gk9hRm1ytWRqzjJ1G0zaX-8awVmsuDskqyQR5fQBR_V8inhr77ommURt9TCTligwHSN8BpVwD4JlXu9AOzUpH736kbm-j1LPFi1WCR-qMkT8uappT_LniVY9FDA"><i class="fa-brands fa-whatsapp"></i></a>
+               </div>
+                 <a href="webbit/Money feat Ola Ola🥺🥺🥺🎵🎤🎧🎸.m4a" download class="btn btn2">Download CV</a>
+            </div>
+               <div class="contact-right">
+                  <form>
+                     <input type="text" name="Name" placeholder="Your Name" required>
+                     <input type="email" name="email" placeholder="Your Email" required>
+                     <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                     <button type="submit" class="btn btn2">Submit</button>
+                  </form>
+               </div>
+           </div>
+       </div>
+       <div class="copyright">
+         <p>Copyright © TIAGO</p>
+       </div>
+     </div>
+
+           <script>
+               var tablinks = document.getElementsByClassName("tab-links");
+               var tabcontents = document.getElementsByClassName("tab-contents");
+               function opentab(tabname){
+                  for(tablink of tablinks){
+                     tablink.classList.remove("active-link");
+                  }
+                  for(tabcontent of tabcontents){
+                     tabcontent.classList.remove("active-tab");
+                  }
+                 event.currentTarget.classList.add("active-link");
+                 document.getElementById(tabname).classList.add("active-tab")
+               }
+
+           </script>
+           <script>
+          var sidemenu =document.getElementsByClassName("menu");
+
+          function openmenu(){
+            menu.style.right = "0";
+          }
+          function closemenu(){
+            menu.style.right = "-200px";
+          }
+           </script>
+</body>
+</html>
